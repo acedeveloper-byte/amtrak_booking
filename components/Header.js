@@ -10,7 +10,7 @@ const Header = () => {
                     <div class="container">
                         <div class="main-responsive-menu">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="/">
                                     <img src="/images/logo.png" alt="logo" />
                                 </a>
                             </div>
@@ -76,7 +76,7 @@ const Header = () => {
                                         </ul> */}
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">
+                                        <a href="/about-us" class="nav-link">
                                             About Us
                                             <i class="fas fa-angle-down"></i>
                                         </a>

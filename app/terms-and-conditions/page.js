@@ -144,6 +144,7 @@ const AboutUs = () => {
                 </div>
             </section>
 
+
             <Footer />
         </>
     )

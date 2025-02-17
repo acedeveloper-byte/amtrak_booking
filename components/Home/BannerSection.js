@@ -9,7 +9,6 @@ const BannerSection = () => {
                         <div class="col-lg-12">
                             <div class="banner_one_text">
                                 <h1>Explore the world together</h1>
-                                <h3>Find awesome flights, hotel, tour, car and packages</h3>
                             </div>
                         </div>
                     </div>

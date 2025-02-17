@@ -13,11 +13,11 @@ const Footer = () => {
                             <div class="footer_first_area">
                                 <div class="footer_inquery_area">
                                     <h5>Call 24/7 for any help</h5>
-                                    <h3> <a href="tel:+00-123-456-789">+00 123 456 789</a></h3>
+                                    <h3> <a href="tel:+1 (855) 564-8004">+1 (855) 564-8004</a></h3>
                                 </div>
                                 <div class="footer_inquery_area">
                                     <h5>Mail to our support team</h5>
-                                    <h3> <a href="mailto:support@domain.com">support@domain.com</a></h3>
+                                    <h3> <a href="mailto:info@amtrakbooking.com">info@amtrakbooking.com</a></h3>
                                 </div>
                                 <div class="footer_inquery_area">
                                     <h5>Follow us on</h5>
@@ -35,9 +35,10 @@ const Footer = () => {
                                 <h5>Company</h5>
                             </div>
                             <div class="footer_link_area">
-                                <ul>
+                            <ul>
                                     <li><a href="/about-us">About Us</a></li>
-                                    <li><a href="terms-service.html">Work with Us</a></li>
+                                    <li><a href="/terms-and-conditions">Terms and Conditions</a></li>
+                                    <li><a href="/disclaimer">Disclaimer</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -47,8 +48,9 @@ const Footer = () => {
                             </div>
                             <div class="footer_link_area">
                                 <ul>
-                                    <li><a href="contact.html">Contact</a></li>
-                                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                    <li><a href="/contact-us">Contact</a></li>
+                                    <li><a href="/privacy-policy">Privacy Policy</a></li>
+                                    <li><a href="/cancellation-refund">Cancellation Refund</a></li>
                                 </ul>
                             </div>
                         </div>
