@@ -43,7 +43,7 @@ const page = () => {
                                 <h6>Head office</h6>
                                 <h3>New Mexico</h3>
                                 <p>4140 Parker Rd. Allentown, New Mexico 31134</p>
-                                <a href="%21.html#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View on map</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View on map</a>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 col-12">
@@ -51,7 +51,7 @@ const page = () => {
                                 <h6>Washington office</h6>
                                 <h3>Washington</h3>
                                 <p>4517 Washington Ave. Manchester, Kentucky 39495</p>
-                                <a href="%21.html#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View on map</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View on map</a>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 col-12">
@@ -59,7 +59,7 @@ const page = () => {
                                 <h6>California office</h6>
                                 <h3>California</h3>
                                 <p>3891 Ranchview Dr. Richardson, California 62639</p>
-                                <a href="%21.html#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View on map</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View on map</a>
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-6 col-sm-12 col-12">
@@ -67,7 +67,7 @@ const page = () => {
                                 <h6>Office schedule</h6>
                                 <h3>Working hours</h3>
                                 <p>Monday to Friday <br /> 9 am to 10pm</p>
-                                <a href="%21.html#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View on map</a>
+                                <a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">View on map</a>
                             </div>
                         </div>
                     </div>

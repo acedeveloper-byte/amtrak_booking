@@ -22,13 +22,13 @@ const HotDeals = () => {
                                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                             <div class="theme_common_box_two img_hover">
                                                 <div class="theme_two_box_img">
-                                                    <a href="hotel-details.html">
+                                                    <a href="/">
                                                         <img src="/images/tab-img/hotel1.png" alt="img" />
                                                     </a>
                                                     <p><i class="fas fa-map-marker-alt"></i>New beach, Thailand</p>
                                                 </div>
                                                 <div class="theme_two_box_content">
-                                                    <h4><a href="hotel-details.html">Kantua hotel, Thailand</a></h4>
+                                                    <h4><a href="/">Kantua hotel, Thailand</a></h4>
                                                     <p><span class="review_rating">4.8/5 Excellent</span> <span
                                                         class="review_count">(1214
                                                         reviewes)</span></p>
@@ -39,7 +39,7 @@ const HotDeals = () => {
                                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                             <div class="theme_common_box_two img_hover">
                                                 <div class="theme_two_box_img">
-                                                    <a href="hotel-details.html">
+                                                    <a href="/">
                                                         <img src="/images/tab-img/hotel2.png" alt="img" />
                                                     </a>
                                                     <p><i class="fas fa-map-marker-alt"></i>Indonesia</p>
@@ -49,7 +49,7 @@ const HotDeals = () => {
 
                                                 </div>
                                                 <div class="theme_two_box_content">
-                                                    <h4><a href="hotel-details.html">Hotel paradise international</a></h4>
+                                                    <h4><a href="/">Hotel paradise international</a></h4>
                                                     <p><span class="review_rating">4.8/5 Excellent</span> <span
                                                         class="review_count">(1214
                                                         reviewes)</span></p>
@@ -60,13 +60,13 @@ const HotDeals = () => {
                                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                             <div class="theme_common_box_two img_hover">
                                                 <div class="theme_two_box_img">
-                                                    <a href="hotel-details.html">
+                                                    <a href="/">
                                                         <img src="/images/tab-img/hotel3.png" alt="img" />
                                                     </a>
                                                     <p><i class="fas fa-map-marker-alt"></i>Kualalampur</p>
                                                 </div>
                                                 <div class="theme_two_box_content">
-                                                    <h4><a href="hotel-details.html">Hotel kualalampur</a></h4>
+                                                    <h4><a href="/">Hotel kualalampur</a></h4>
                                                     <p><span class="review_rating">4.8/5 Excellent</span> <span
                                                         class="review_count">(1214
                                                         reviewes)</span></p>
@@ -77,7 +77,7 @@ const HotDeals = () => {
                                         <div class="col-lg-3 col-md-6 col-sm-6 col-12">
                                             <div class="theme_common_box_two img_hover">
                                                 <div class="theme_two_box_img">
-                                                    <a href="hotel-details.html">
+                                                    <a href="/">
                                                         <img src="/images/tab-img/hotel4.png" alt="img" />
                                                     </a>
                                                     <p><i class="fas fa-map-marker-alt"></i>Mariana island</p>
@@ -86,7 +86,7 @@ const HotDeals = () => {
                                                     </div>
                                                 </div>
                                                 <div class="theme_two_box_content">
-                                                    <h4><a href="hotel-details.html">Hotel deluxe</a></h4>
+                                                    <h4><a href="/">Hotel deluxe</a></h4>
                                                     <p><span class="review_rating">4.8/5 Excellent</span> <span
                                                         class="review_count">(1214
                                                         reviewes)</span></p>

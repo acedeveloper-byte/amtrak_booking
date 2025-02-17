@@ -36,7 +36,7 @@ const AboutUs = () => {
                                 <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
                                     no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
                                     dolor sit amet, consetetur sadipscing elitr </p>
-                                <a href="tour-search.html" class="btn btn_theme btn_md">Find tours</a>
+                                <a href="/" class="btn btn_theme btn_md">Find tours</a>
                             </div>
                         </div>
                         <div class="col-lg-6">
