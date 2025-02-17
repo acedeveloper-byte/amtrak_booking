@@ -8,7 +8,7 @@ const Destinations = () => {
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                             <div class="section_heading_center">
-                                <h2>Destinations for you</h2>
+                                <h2>About Us</h2>
                             </div>
                         </div>
                     </div>

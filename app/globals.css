@@ -12559,7 +12559,8 @@ font-weight: 400;
   .main-responsive-nav .logo {
       position: relative;
       z-index: 999;
-      width: 50%
+      width: 50%;
+      filter : invert(1)
   }
 
   .navbar-area {

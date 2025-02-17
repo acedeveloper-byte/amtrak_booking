@@ -11,7 +11,11 @@ const Header = () => {
                         <div class="main-responsive-menu">
                             <div class="logo">
                                 <a href="/">
-                                    <img src="/images/logo.png" alt="logo" />
+                                    <img src="/images/logo.png" alt="logo" style={{
+                                        maxWidth: "50%",
+                                        filter: "invert(1)", // Ensure the parent isn't interfering
+                                        display: "block" // Prevent inline spacing issues
+                                    }} />
                                 </a>
                             </div>
                         </div>
