@@ -30,13 +30,8 @@ const AboutUs = () => {
                             <div class="about_us_left">
                                 <h5>About us</h5>
                                 <h2>We Are The World Best Travel Agency Company Since 2000</h2>
-                                <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                                    dolor sit amet, consetetur sadipscing elitr </p>
-                                <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
-                                    no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
-                                    dolor sit amet, consetetur sadipscing elitr </p>
-                                <a href="/" class="btn btn_theme btn_md">Find tours</a>
+                                <p>Whistlingrails is one of the reckoned train travel planners in Texas, United States. We have given customers mesmerizing experiences in their train travel plans. It can be a romantic weekend, a guided city escape, or a once-in-a-lifetime holiday, we tailor-made train itineraries for everyone. We have a team of experienced travel professionals working around the clock to provide you with economical fares & customized train itineraries as per your timing & budget preference. Our company has affiliate tie-ups with some of the leading train consolidators to provide optimum deals in your pocket budget. With us, you can customize your train plans according to your requirements, our team is always ready to help with any train travel-related questions. </p>
+
                             </div>
                         </div>
                         <div class="col-lg-6">

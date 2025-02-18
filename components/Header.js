@@ -1,7 +1,7 @@
 'use client'
 import React, { useState, useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import "../app/meanmenu.css"
 const Header = () => {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -27,9 +27,22 @@ const Header = () => {
             <div class={isVisible ? "navbar-area is-sticky" : "navbar-area"}>
                 <div class="main-responsive-nav">
                     <div class="container">
-                        <div class="main-responsive-menu">
+                        <div class="main-responsive-menu mean-container">
+                            {/* <div class="pos-f-t">
+                                <div class="collapse" id="navbarToggleExternalContent">
+                                    <div class="bg-dark p-4">
+                                        <h4 class="text-white">Collapsed content</h4>
+                                        <span class="text-muted">Toggleable via the navbar brand.</span>
+                                    </div>
+                                </div>
+                                <nav class="navbar navbar-dark bg-dark">
+                                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                </nav>
+                            </div> */}
                             <div class="logo">
-                                <a href="/">
+                                <a href="index.html">
                                     <img src="/images/logo_white.png" alt="logo" />
                                 </a>
                             </div>
@@ -117,29 +130,7 @@ const Header = () => {
                         </nav>
                     </div>
                 </div>
-                <div class="others-option-for-responsive">
-                    <div class="container">
-                        <div class="dot-menu">
-                            <div class="inner">
-                                <div class="circle circle-one"></div>
-                                <div class="circle circle-two"></div>
-                                <div class="circle circle-three"></div>
-                            </div>
-                        </div>
-                        <div class="container">
-                            <div class="option-inner">
-                                <div class="others-options d-flex align-items-center">
-                                    <div class="option-item">
-                                        <a href="#" class="search-box"><i class="fas fa-search"></i></a>
-                                    </div>
-                                    <div class="option-item">
-                                        <a href="contact.html" class="btn  btn_navber">Get free quote</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
             </div>
         </header>
     )

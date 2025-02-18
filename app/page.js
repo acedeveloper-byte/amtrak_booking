@@ -19,6 +19,9 @@ import ScrollToTop from '@/components/ScrollToTop';
 
 
 const Home = () => {
+  useEffect(() => {
+    require("bootstrap/dist/js/bootstrap.bundle.min.js");
+  }, []);
   return (
     <>
       <Header />
