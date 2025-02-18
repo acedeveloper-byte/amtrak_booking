@@ -38,11 +38,9 @@ const page = () => {
                                 <img src="/images/common/abour_right.png" alt="img" />
                             </div>
                         </div>
-
                     </div>
                 </div>
             </section>
-
             <Footer />
         </>
     )

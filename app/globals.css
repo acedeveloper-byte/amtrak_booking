@@ -522,7 +522,7 @@ section {
 /* --Banner Area-- */
 #home_one_banner {
     background-image: url("/images/banner/train.jpg");
-    padding: 90px 0 190px 0;
+    padding: 180px 0 190px 0;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -535,6 +535,7 @@ section {
 
 .banner_one_text h1 {
     color: var(--white-color);
+    margin-bottom: 134px;
 }
 
 .banner_one_text h3 {
@@ -12817,4 +12818,6 @@ font-weight: 400;
 
 
 
-
+.header-logo {
+  max-width: 50%;
+}

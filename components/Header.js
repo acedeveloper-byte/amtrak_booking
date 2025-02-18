@@ -11,11 +11,7 @@ const Header = () => {
                         <div class="main-responsive-menu">
                             <div class="logo">
                                 <a href="/">
-                                    <img src="/images/logo.png" alt="logo" style={{
-                                        maxWidth: "50%",
-                                        filter: "invert(1)", // Ensure the parent isn't interfering
-                                        display: "block" // Prevent inline spacing issues
-                                    }} />
+                                    <img src="/images/logo_white.png" alt="logo" />
                                 </a>
                             </div>
                         </div>
@@ -25,12 +21,12 @@ const Header = () => {
                     <div class="container">
                         <nav class="navbar navbar-expand-md navbar-light">
                             <a class="navbar-brand" href="#">
-                                <img src="/images/logo.png" alt="logo" />
+                                <img src="/images/logo_white.png" alt="logo" class="header-logo" />
                             </a>
                             <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
                                 <ul class="navbar-nav">
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link active">
+                                        <a href="/" class="nav-link active">
                                             Home
                                             <i class="fas fa-angle-down"></i>
                                         </a>
@@ -92,7 +88,7 @@ const Header = () => {
 
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link">Contact <i class="fas fa-angle-down"></i></a>
+                                        <a href="/contact-us" class="nav-link">Contact <i class="fas fa-angle-down"></i></a>
 
                                     </li>
                                 </ul>
