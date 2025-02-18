@@ -94,6 +94,7 @@ const Header = () => {
                                 </ul>
 
                             </div>
+                            <a class="alert-button" href="tel:+1 (855) 564-8004">Call @ (855) 564-8004</a>
                         </nav>
                     </div>
                 </div>
