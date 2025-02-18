@@ -12505,7 +12505,6 @@ font-weight: 400;
       position: relative;
       z-index: 999;
       width: 50%;
-      filter : invert(1)
   }
 
   .navbar-area {
