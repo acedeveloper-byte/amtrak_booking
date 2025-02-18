@@ -1,11 +1,30 @@
-import React from 'react'
+'use client'
+import React, { useState, useEffect } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
+    const [isVisible, setIsVisible] = useState(false);
+
+    useEffect(() => {
+        const toggleVisibility = () => {
+            if (window.scrollY > 300) {
+                setIsVisible(true);
+            } else {
+                setIsVisible(false);
+            }
+        };
+
+        window.addEventListener("scroll", toggleVisibility);
+        return () => window.removeEventListener("scroll", toggleVisibility);
+    }, []);
+
+    const scrollToTop = () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    };
+
     return (
         <header class="main_header_arae">
-
-            <div class="navbar-area">
+            <div class={isVisible ? "navbar-area is-sticky" : "navbar-area"}>
                 <div class="main-responsive-nav">
                     <div class="container">
                         <div class="main-responsive-menu">

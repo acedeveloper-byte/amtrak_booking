@@ -15,6 +15,7 @@ import Destinations from '@/components/Home/Destinations';
 import Footer from '@/components/Footer';
 import Newsletter from '@/components/Home/Nwesletter';
 import BestServices from '@/components/Home/BestServices';
+import ScrollToTop from '@/components/ScrollToTop';
 
 
 const Home = () => {
@@ -28,6 +29,11 @@ const Home = () => {
       <Imagination />
       <Newsletter />
       <Footer />
+      <ScrollToTop />
+      {/* <div class="go-top active">
+        <i class="fas fa-chevron-up"></i>
+        <i class="fas fa-chevron-up"></i>
+      </div> */}
     </>
   )
 }
