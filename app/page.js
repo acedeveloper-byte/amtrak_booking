@@ -24,6 +24,9 @@ const Home = () => {
   }, []);
   return (
     <>
+    <Head>
+      
+    </Head>
       <Header />
       <BannerSection />
       <StaticEngine />
