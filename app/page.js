@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 // import 'slick-carousel/slick/slick.css'; // Import slick carousel styles
 // import 'slick-carousel/slick/slick-theme.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -8,7 +8,7 @@ import BannerSection from '@/components/Home/BannerSection';
 import StaticEngine from '@/components/StaticEngine';
 import Imagination from '@/components/Home/Imagination';
 // import TopDestination from '@/components/Home/TopDestination';
-import HotDeals from '@/components/Home/HotDeals';
+// import HotDeals from '@/components/Home/HotDeals';
 // // // import HotOffers from '@/components/Home/HotOffers';
 // import Promotional from '@/components/Home/Promotional';
 import Destinations from '@/components/Home/Destinations';
@@ -24,9 +24,9 @@ const Home = () => {
   }, []);
   return (
     <>
-    <Head>
-      
-    </Head>
+      <Head>
+
+      </Head>
       <Header />
       <BannerSection />
       <StaticEngine />

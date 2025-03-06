@@ -4,15 +4,15 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-      {/* <!-- Google tag (gtag.js) --> */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16881015162"></script>
-<script>
-  {`window.dataLayer = window.dataLayer || [];
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16881015162"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
  
   gtag('config', 'AW-16881015162');`}
-</script>
+        </script>
       </Head>
       <body>
         <Main />
