@@ -1,3 +1,4 @@
+'use client'
 import React, { useEffect } from 'react'
 // import 'slick-carousel/slick/slick.css'; // Import slick carousel styles
 // import 'slick-carousel/slick/slick-theme.css';
