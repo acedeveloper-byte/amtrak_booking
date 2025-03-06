@@ -17,7 +17,7 @@ import Footer from '@/components/Footer';
 import Newsletter from '@/components/Home/Nwesletter';
 import BestServices from '@/components/Home/BestServices';
 import ScrollToTop from '@/components/ScrollToTop';
-import { Head } from 'next/document';
+import Head from 'next/head';
 
 
 const Home = () => {
