@@ -17,6 +17,7 @@ import Footer from '@/components/Footer';
 import Newsletter from '@/components/Home/Nwesletter';
 import BestServices from '@/components/Home/BestServices';
 import ScrollToTop from '@/components/ScrollToTop';
+import { Head } from 'next/document';
 
 
 const Home = () => {
@@ -25,7 +26,16 @@ const Home = () => {
   }, []);
   return (
     <>
-
+      <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16881015162"></script>
+        <script>
+          {`window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+ 
+  gtag('config', 'AW-16881015162');`}
+        </script>
+      </Head>
       <Header />
       <BannerSection />
       <StaticEngine />
