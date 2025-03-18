@@ -18,6 +18,7 @@ import Newsletter from '@/components/Home/Nwesletter';
 import BestServices from '@/components/Home/BestServices';
 import ScrollToTop from '@/components/ScrollToTop';
 import Head from 'next/head';
+import MobilePopup from '@/components/Popup';
 
 
 const Home = () => {
@@ -26,7 +27,7 @@ const Home = () => {
   }, []);
   return (
     <>
-
+      <MobilePopup />
       <Header />
       <BannerSection />
       <StaticEngine />

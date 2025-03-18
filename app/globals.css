@@ -12801,3 +12801,133 @@ font-weight: 400;
 .header-logo {
   max-width: 50%;
 }
+
+
+#popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            border-radius: 10px;
+            max-width: 500px;
+            width: 65%;
+            z-index: 1000;
+            display: none;
+        }
+ 
+        .close-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #ab1111e6;
+            color: #fff;
+            font-size: 20px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            padding: 5px 10px;
+        }
+ 
+        .popup-header img {
+            display: block;
+            margin: 0 auto;
+            max-width: 185px;
+        }
+ 
+        .paratextPopup {
+            font-size: 14px;
+            font-weight: 700;
+            text-align: center;
+            color: #060606;
+            margin: 10px 0;
+        }
+ 
+        .popup-phone h3 {
+            font-size: 22px;
+            color: #ed942d;
+            text-align: center;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+ 
+        .popup-phone h3 a {
+            text-decoration: none;
+            color: inherit;
+        }
+ 
+        hr {
+            border: 0.5px solid #ddd;
+            margin: 15px 0;
+        }
+ 
+        .support {
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            color: #444;
+        }
+ 
+        .list-view-items {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 15px 0;
+        }
+ 
+        .list-view-items li {
+            flex: 1 1 48%;
+            font-size: 14px;
+            font-weight: bold;
+            color: #fff;
+            text-align: center;
+            background-color: #007bff;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+ 
+        .btn_toll_free {
+            display: block;
+            width: 100%;
+            background-color: #ed942d;
+            color: #fff;
+            font-size: 18px;
+            text-align: center;
+            padding: 12px;
+            border-radius: 8px;
+            font-weight: bold;
+            text-decoration: none;
+            margin-top: 20px;
+        }
+ 
+        .btn_toll_free:hover {
+            background-color: #5b3080;
+        }
+ 
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+            display: none;
+        }
+ 
+        @media only screen and (max-width: 480px) {
+            .list-view-items li {
+                font-size: 12px;
+                padding: 8px;
+            }
+ 
+            .btn_toll_free {
+                font-size: 16px;
+            }
+        }
