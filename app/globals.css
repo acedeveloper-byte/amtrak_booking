@@ -12762,7 +12762,7 @@ font-weight: 400;
   cursor: pointer;
   display: inline-block;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 15px;
   padding: 5px 10px;
   text-align: center;
   text-decoration: none;
@@ -12770,6 +12770,8 @@ font-weight: 400;
   -moz-animation: glowing 1500ms infinite;
   -o-animation: glowing 1500ms infinite;
   animation: glowing 1500ms infinite;
+  margin: 5px;
+  width: 200px;
 }
 .alert-button:hover {
   color: white
@@ -12931,3 +12933,17 @@ font-weight: 400;
                 font-size: 16px;
             }
         }
+
+
+
+        .main-navbar .navbar {
+            transition: var(--transition);
+            padding: 0;
+            width: 1200px !important;}
+
+            .main-navbar .navbar ul {
+                padding-left: 60px;
+                list-style-type: none;
+                margin-bottom: 0;
+                width: 439px;
+            }            

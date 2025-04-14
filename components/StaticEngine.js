@@ -75,8 +75,6 @@ const StaticEngine = () => {
                                                 type="button" role="tab" aria-controls="tours" aria-selected="false"><i
                                                     class="fas fa-globe"></i>One way</button>
                                         </li>
-
-
                                     </ul>
                                 </div>
                                 <div class="tab-content" id="myTabContent">
