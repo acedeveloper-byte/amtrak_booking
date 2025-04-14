@@ -12753,7 +12753,7 @@ font-weight: 400;
         margin-bottom: 0;
         width: 439px;
     }            
-    
+
 }
 
 @media only screen and (min-width:1550px) {
@@ -12769,8 +12769,12 @@ font-weight: 400;
         padding-left: 60px;
         list-style-type: none;
         margin-bottom: 0;
-        width: 439px;
-    }            
+        width: 500px !important;
+    }   
+    
+    .alert-button{
+        width: 250px !important;
+    }
 }
 
 .mean-menu {
